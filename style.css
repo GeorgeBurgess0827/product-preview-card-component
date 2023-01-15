@@ -6,6 +6,7 @@
     /* Primary */
 
     --Darkcyan: hsl(158, 36%, 37%);
+    --Darkercyan: hsl(158, 50%, 25%);
     --Cream: hsl(30, 38%, 92%);
     
     /* Neutral */
@@ -108,4 +109,8 @@ button {
     padding: 15px 10px 15px 10px;
 
 }
-
+button:hover {
+   
+    background-color: var(--Darkercyan);
+    
+}
